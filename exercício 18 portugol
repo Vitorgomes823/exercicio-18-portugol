@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valordecusto , margemaumento , novovalor , precovenda
+
+		escreva("escreva o valor de custo : ")
+		leia(valordecusto)
+		limpa()
+
+		escreva("escreva a margem de aumento  % : ")
+		leia(margemaumento)
+
+		novovalor = (margemaumento * valordecusto ) / 100 
+
+		precovenda = novovalor + valordecusto
+
+		escreva("o preço de venda sera : ",precovenda)
+
+		
+	}
+}
